@@ -201,6 +201,12 @@ var Configuration = map[string]PathConfig{
 	"arm-linux-androidkernel-size":       Allowed,
 	"arm-linux-androidkernel-strings":    Allowed,
 	"arm-linux-androidkernel-strip":      Allowed,
+    "aarch64-linux-gnu-ld": Allowed,
+	"llvm-nm":   Allowed,
+	"llvm-objcopy":   Allowed,
+	"llvm-objdump":   Allowed,
+	"llvm-strip":   Allowed,
+	"aarch64-elf-ld.lld":   Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
