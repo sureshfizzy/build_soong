@@ -254,6 +254,12 @@ org\.chromium\.arc\..*
 
 ###################################################
 
+# NV adds
+com\.nvidia
+com\.nvidia\..*
+
+###################################################
+
 # QC adds
 com.qualcomm.qti
 com.quicinc.tcmiface
